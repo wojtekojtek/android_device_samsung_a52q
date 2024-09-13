@@ -50,8 +50,9 @@ PRIVATE_BUILD_DESC := "a52qnsxx-user 11 RP1A.200720.012 A525FXXS7FXE2 release-ke
 # Security patch
 VENDOR_SECURITY_PATCH := 2024-05-01
 
-# Everest
+TARGET_RELEASE := ap2a
 
+# Everest
 EVEREST_MAINTAINER := "wojtekojtek"
 TARGET_SUPPORTS_BLUR := true
 TARGET_HAS_UDFPS := true

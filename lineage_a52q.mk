@@ -34,7 +34,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := everest_a52q
+PRODUCT_NAME := lineage_a52q
 PRODUCT_DEVICE := a52q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A525F

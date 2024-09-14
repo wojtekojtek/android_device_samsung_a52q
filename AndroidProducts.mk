@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The everestOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/everest_a52q.mk
+    $(LOCAL_DIR)/lineage_a52q.mk
 
 COMMON_LUNCH_CHOICES := \
-    everest_a52q-userdebug \
-    everest_a52q-user \
-    everest_a52q-eng
+    lineage_a52q-userdebug \
+    lineage_a52q-user \
+    lineage_a52q-eng

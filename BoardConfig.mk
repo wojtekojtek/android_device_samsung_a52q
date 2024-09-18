@@ -18,6 +18,8 @@ DEVICE_PATH := device/samsung/a52q
 
 include device/samsung/sm7125-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
+
 # Kernel
 TARGET_KERNEL_CONFIG        := vendor/lineage-a52q_defconfig
 BOARD_NAME                  := SRPTH31C002

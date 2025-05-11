@@ -52,3 +52,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Security patch
 VENDOR_SECURITY_PATCH := 2024-11-01
+
+# Infinity X
+INFINITY_MAINTAINER := "wojtekojtek"
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.product.marketname=Samsung A52 4G \
+    ro.infinity.soc=Snapdragon 720G \
+    ro.infinity.battery=4500 mAh \
+    ro.infinity.display=1080 x 2400, 90 Hz \
+    ro.infinity.camera=64MP + 12MP + 5MP + 5MP

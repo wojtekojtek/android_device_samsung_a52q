@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common Infinity stuff
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# Enable utrueing of APEXes
+# Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation

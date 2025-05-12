@@ -28,6 +28,9 @@ $(call inherit-product, vendor/samsung/a52q/a52q-vendor.mk)
 PRODUCT_PACKAGES += \
     init.a52q.rc
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml

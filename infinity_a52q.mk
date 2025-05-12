@@ -62,10 +62,3 @@ TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_HAS_UDFPS := true
-
-PRODUCT_SYSTEM_PROPERTIES += \
-    ro.product.marketname=Samsung A52 4G \
-    ro.infinity.soc=Snapdragon 720G \
-    ro.infinity.battery=4500 mAh \
-    ro.infinity.display=1080 x 2400, 90 Hz \
-    ro.infinity.camera=64MP + 12MP + 5MP + 5MP

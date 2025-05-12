@@ -25,10 +25,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Infinity stuff
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-# Enable updating of APEXes
+# Enable utrueing of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
@@ -36,7 +36,7 @@ TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_a52q
+PRODUCT_NAME := infinity_a52q
 PRODUCT_DEVICE := a52q
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A525F
@@ -44,6 +44,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 30
+
+# Inscreen Fingerprint HAL
+TARGET_HAVE_FOD := true
 
 # Vendor fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -57,6 +60,8 @@ VENDOR_SECURITY_PATCH := 2024-11-01
 INFINITY_MAINTAINER := "wojtekojtek"
 TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_HAS_UDFPS := true
 
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.product.marketname=Samsung A52 4G \
